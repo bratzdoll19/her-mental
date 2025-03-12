@@ -10,12 +10,10 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var calendarEl = document.getElementById('calendar-container');
-            if (calendarEl) {
-                var calendar = new FullCalendar.Calendar(calendarEl, {
-                    initialView: 'dayGridMonth'
-                });
-                calendar.render();
-            }
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth'
+            });
+            calendar.render();
         });
     </script>
     <style>
@@ -62,7 +60,7 @@
     </header>
     
     <nav>
-        <a href="index.html">Home</a>
+        <a href="home.html">Home</a>
         <a href="share.html">Anonymous Sharing</a>
         <a href="book-club.html">Book Club</a>
         <a href="calendar.html">Calendar</a>
